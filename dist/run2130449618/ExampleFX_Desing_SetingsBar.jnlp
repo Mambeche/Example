@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ExampleFX_Desing_SetingsBar.jnlp">
+  <information>
+    <title>ExampleFX_Desing_SetingsBar</title>
+    <vendor>angel</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ExampleFX_Desing_SetingsBar.jar" size="31367" download="eager" />
+    <jar href="lib\jfoenix-8.0.1.jar" size="2405715" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ExampleFX_Desing_SetingsBar" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="examplefx_desing_setingsbar.ExampleFX_Desing_SetingsBar"  name="ExampleFX_Desing_SetingsBar" />
+  <update check="always"/>
+</jnlp>
